@@ -11,4 +11,5 @@ group :development, :test do
   gem 'sinatra-contrib'
   gem 'rspec'
   gem 'simplecov', require: false
+  gem 'pg'
 end

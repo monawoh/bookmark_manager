@@ -1,4 +1,5 @@
 require './lib/bookmark.rb'
+require 'pg'
 
 describe Bookmark do 
     it 'returns the list of all bookmarks' do
